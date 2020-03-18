@@ -9,13 +9,11 @@ class Calculator
 	 this.clear()
 
 	}
-
 	clear()
 	{
 		this.currentOperand = ''
 		this.previousOperand = ''
 		this.operation = undefined 
-
 	}
 	delete()
 	{
@@ -39,7 +37,6 @@ class Calculator
     this.operation = operation
     this.previousOperand = this.currentOperand
     this.currentOperand = ''
-
 	}
 	compute()
 	{
@@ -68,7 +65,8 @@ class Calculator
     this.currentOperand = computation
     this.operation = undefined
     this.previousOperand = '' 
-	}
+	
+  }
 
 	updateDisplay()
 	{
